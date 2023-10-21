@@ -4,13 +4,15 @@ import {
   CardBody,
   CardTitle,
   CardText,
-  CardLink,
+  CardLink
 } from "reactstrap";
-
+import FL from "../Component/Gaurav/index";
+import LastSection from "../Component/Aishwarya";
 const Home = () => {
   return (
     <div>
-     Hello
+      <FL />
+      <LastSection />
     </div>
   );
 };
